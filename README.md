@@ -23,6 +23,9 @@ https://bhoomika-malagar.github.io/fun-projects/batman-calculator/
 ## ⏳ Pomodoro Timer
 Minimal themed productivity timer.
 
+🔗 Live Demo:
+https://bhoomika-malagar.github.io/fun-projects/pomodoro-timer/
+
 ---
 
 ✨ Built as part of my frontend practice and UI experimentation.
