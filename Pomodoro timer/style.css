@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6c1d9;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url("bg.jpg");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+}
+
+.app {
+  background: #e9f3ba;
+  padding: 60px 70px;      
+  border-radius: 25px;
+  width: 480px;
+
+  box-shadow: 
+    10px 10px 0px #9b6c90,
+    0 25px 45px rgba(0,0,0,0.25);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center;
+  gap: 20px;               
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+
+.mode-buttons button,
+.controls button {
+  font-family: inherit;
+  font-size: 16px;          
+  padding: 16px 28px;       
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  background: #ff8fab;
+  color: white;
+  box-shadow: 6px 6px 0px #c96d86;
+  transition: all 0.12s ease;
+}
+
+.mode-buttons .active {
+  background: #6c5ce7;
+  color: white;
+}
+
+.timer {
+  font-size: 72px;        
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cat {
+  width: 120px;
+  margin: 15px 0;
+  cursor: pointer;
+  border: #6c5ce7;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.cat:active {
+  transform: scale(1.1);
+}

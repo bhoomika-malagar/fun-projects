@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Pomodoro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app">
+    <h2 class="title">
+        Meow Meow is waiting..
+    </h2>
+
+    <div class="mode-buttons">
+      <button id="workBtn" class="active">Work</button>
+      <button id="breakBtn">Break</button>
+    </div>
+
+    <div class="timer" id="timer">25:00</div>
+
+    <img src="cat.gif" id="cat" class="cat">
+
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <audio id="meow" src="assets/meow.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
