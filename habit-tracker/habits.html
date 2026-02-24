@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Habits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadHabits()">
+
+  <div class="habit-container">
+    <h2 id="selected-date"></h2>
+
+    <div class="add-habit">
+      <input type="text" id="newHabit" placeholder="New habit...">
+      <button onclick="addHabit()">Add</button>
+    </div>
+
+    <div id="habitList" class="habit-list"></div>
+
+    <button onclick="goBack()">← Back</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
